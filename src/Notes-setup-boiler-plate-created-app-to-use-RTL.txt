@@ -64,9 +64,32 @@
 
             - npm run test -- --watchAll 
 
-  3. Scroll down to Jest + Enzyme
-       Click How to test React components with Jest -https://www.robinwieruch.de/react-testing-jest/
-       Click How to test React components with Jest & Enzyme -https://www.robinwieruch.de/react-testing-jest-enzyme/
+     (D) Exercises:
+         Explore more Jest Features and how to use them for Snapshot Testing (TODO)
+           - https://jestjs.io/docs/tutorial-react
+
+      Summary: 
+            Jest gives you (almost) everything you need to test your React components. 
+         You can run all your tests from the command line, give it additional configuration, 
+         and define test suites and test cases in your test files. 
+         
+           Snapshot Tests give you a lightweight way to test your React components by just 
+         diffing the rendered output to the previous output. Also you have seen how Jest 
+         can be used for testing only JavaScript functions, so it's not strictly bound to 
+         React testing.
+
+           However, TESTING THE DOM OF A REACT COMPONENT WITH JEST IS MORE DIFFICULT. 
+         That's why there exist other third-party libraries such as React Testing Library 
+         or Enzyme to make React component unit testing possible for you.  
+
+
+       (5) Testing the DOM of a React component   (Study this later)
+           - How to test React components with Jest & Enzyme - https://www.robinwieruch.de/react-testing-jest-enzyme/
+           - How to shallow render Jest Snapshot Tests - https://www.robinwieruch.de/jest-snapshot-shallow-render/
+           - How to Jest Snapshot Test the Difference - https://www.robinwieruch.de/jest-snapshot-test-difference/
+           - How to test React-Redux connected Components https://www.robinwieruch.de/react-connected-component-test/
+
+  
 
 
 

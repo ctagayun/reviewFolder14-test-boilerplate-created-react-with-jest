@@ -60,9 +60,9 @@
            - add another Snapshot test for your App component: 
 
      (C)  Jest Unit/Integration Testing in React
-            - Add  the following unit tests to App.Spec.js      
+            - Add  the  test suite for "Reducer Hook"   to App.Spec.js      
 
-
+            - npm run test -- --watchAll 
 
   3. Scroll down to Jest + Enzyme
        Click How to test React components with Jest -https://www.robinwieruch.de/react-testing-jest/

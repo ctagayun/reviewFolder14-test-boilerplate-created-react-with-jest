@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App, { Counter, dataReducer } from './App';
-//import { Counter } from './App';
+import App, {dataReducer } from './App';
+import { Counter } from './Counter';
 
 const list = ['a', 'b', 'c'];
 

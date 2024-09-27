@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import Counter from './Counter';
 
 export const dataReducer = (state, action) => {
   if (action.type === 'SET_ERROR') {
@@ -59,10 +60,5 @@ const App = () => {
   );
 };
 
-export const Counter = ({ counter }) => (
-  <div>
-    <p>{counter}</p>
-  </div>
-);
 
 export default App;
